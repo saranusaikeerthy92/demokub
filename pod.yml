@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: sample-ctr
-    image: 28141108/myownimage:34
+    image: 28141108/java-mvn-privaterepos:php14
     ports:
-    - containerPort: 8080
+      - containerPort: 80
